@@ -19,6 +19,18 @@ shinyUI(fluidPage(
 
   hr(),
   h4("Liter"),
-  fluidRow(column(3, verbatimTextOutput("Liter")))
+  fluidRow(column(3, verbatimTextOutput("Liter"))),
+  
+  hr(),
+  
+  h4("Tutorial :"),
+  
+  helpText("This application is used to help user conver value 
+            with unit of US Liquid Gallon to value with unit of
+            Liter.
+           
+            You can just put Gallon Unit value in the input text 
+            box (The upper one). Then the value with Liter value 
+            will updated automatically.")
   
 ))
